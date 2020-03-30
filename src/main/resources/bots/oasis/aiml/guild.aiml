@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: guild.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: December 08, 2019 -->
+<!--  -->
+<!-- This AIML file is part of the OASIS 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The OASIS brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The OASIS brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>SETUP SERVER</pattern>
+<template>Ok! What channel would you like to use as a welcome channel?</template>
+</category>
+<category><pattern>RUN *</pattern>
+<template><srai>
+                SETUP <star/>
+            </srai></template>
+</category>
+<category><pattern>USE *</pattern>
+<template>Welcome channel set to <set name="welcome"> <star/>! </set></template>
+</category>
+</aiml>

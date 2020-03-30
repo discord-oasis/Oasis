@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>SETUP SERVER</pattern>
+        <template>Ok! What channel would you like to use as a welcome channel?</template>
+    </category>
+
+    <category>
+        <pattern>RUN *</pattern>
+        <template>
+            <srai>
+                SETUP <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>Use *</pattern>
+        <template>
+            Welcome channel set to <set name = "welcome"> <star/>! </set>
+        </template>
+    </category>
+</aiml>
