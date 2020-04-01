@@ -1,3 +1,3 @@
 0,SETUP SERVER,*,*,Ok! What channel would you like to use as a welcome channel?,guild.aiml
 0,RUN *,*,*,<srai>#Newline                SETUP <star/>#Newline            </srai>,guild.aiml
-0,USE *,*,*,Welcome channel set to <set name="welcome"> <star/>! </set>,guild.aiml
+0,USE *,*,*,Welcome channel set to<contactid> * </contactid>,guild.aiml

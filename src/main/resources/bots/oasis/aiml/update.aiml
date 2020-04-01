@@ -2,11 +2,11 @@
 <aiml>
 <!-- File: update.aiml -->
 <!-- Author: Dr. Richard S. Wallace -->
-<!-- Last modified: December 08, 2019 -->
+<!-- Last modified: March 31, 2020 -->
 <!--  -->
 <!-- This AIML file is part of the OASIS 0.0.4 chat bot knowledge base. -->
 <!--  -->
-<!-- The OASIS brain is Copyright &copy; 2019 by ALICE AI Foundation. -->
+<!-- The OASIS brain is Copyright &copy; 2020 by ALICE AI Foundation. -->
 <!--  -->
 <!-- The OASIS brain is released under the terms of the GNU Lesser General -->
 <!-- Public License, as published by the Free Software Foundation. -->
@@ -19,7 +19,7 @@
 <template>S.U.P.E.R. AIML Bot version 0.0.4</template>
 </category>
 <category><pattern>BUILD</pattern>
-<template>Sun Dec 08 17:39:34 CST 2019</template>
+<template>Tue Mar 31 16:25:56 CDT 2020</template>
 </category>
 <category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
 <template>Program AB 0.0.4.2 beta -- AI Foundation Reference AIML 2.0 implementation</template>

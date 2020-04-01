@@ -2,6 +2,7 @@ package org.phantasye.oasis.service.message.impl;
 
 import discord4j.core.object.entity.Message;
 import org.phantasye.oasis.Oasis;
+import org.phantasye.oasis.OasisCommons;
 import org.phantasye.oasis.entity.user.command.CommandContext;
 import org.phantasye.oasis.model.chat.ChatSessionFactory;
 import org.phantasye.oasis.service.message.MessageServiceChain;
@@ -23,7 +24,6 @@ public class ParseMessageServiceChain implements MessageServiceChain {
 
     @Override
     public void handle(Message message) {
-
             final String msg = message.getContent().orElse(null);
 
             try {

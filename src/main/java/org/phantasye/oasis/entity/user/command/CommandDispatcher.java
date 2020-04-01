@@ -19,11 +19,11 @@ public class CommandDispatcher {
     public CommandDispatcher() {
         this.discordEventListenerMap = new HashMap<>();
 
-        discordEventListenerMap.put("-test", new TestCommandListener());
+        discordEventListenerMap.put("test", new TestCommandListener());
     }
 
     public boolean dispatch(CommandContext ctx, Event event) {
-        Oasis.GLOBAL_LOGGER.info(ctx.getCommand());
+        Oasis.GLOBAL_LOGGER.info("RECEIVED COMMAND: " + ctx.getCommand());
         if(isCommand(ctx.getCommand())) {
             discordEventListenerMap.get(ctx.getCommand()).execute(event,ctx);
             discordEventListenerMap.get(ctx.getCommand()).log(event,ctx);

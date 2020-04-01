@@ -12,6 +12,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="util" />
+    <orderEntry type="library" name="Ab" level="project" />
+    <orderEntry type="library" name="JSON Repositories" level="project" />
     <orderEntry type="library" name="Maven: com.discord4j:discord4j-core:3.0.8" level="project" />
     <orderEntry type="library" name="Maven: com.discord4j:discord4j-rest:3.0.8" level="project" />
     <orderEntry type="library" name="Maven: com.discord4j:discord4j-common:3.0.8" level="project" />
@@ -97,7 +99,5 @@
     <orderEntry type="library" name="Maven: edu.washington.cs.knowitall:opennlp-tokenize-models:1.5" level="project" />
     <orderEntry type="library" name="Maven: edu.washington.cs.knowitall:opennlp-postag-models:1.5" level="project" />
     <orderEntry type="library" name="Maven: edu.washington.cs.knowitall:opennlp-chunk-models:1.5" level="project" />
-    <orderEntry type="library" name="Ab" level="project" />
-    <orderEntry type="library" name="JSON Repositories" level="project" />
   </component>
 </module>

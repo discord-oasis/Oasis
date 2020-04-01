@@ -6,7 +6,7 @@ public interface OasisCommons {
 
     Logger GLOBAL_LOGGER = Logger.getLogger("GLOBAL");
 
-    String TOKEN = "NjEyNzEyNTMwMzEzMjE2MDA0.XVmYVw.QAReZVZ4EXRubZu9VQ03V3O7Y70"; //"NTQyMTA2NDc3MTgwMDkyNDIx.DzpLjA.Yy_HjLhvBl7YTG0FuWIeG5bZq_g";
+    String TOKEN = "NTQyMTA2NDc3MTgwMDkyNDIx.XoJZ4w.Ibmtm0JCj2Mip0hyBDk4gcbHqZ4"; //"NTQyMTA2NDc3MTgwMDkyNDIx.DzpLjA.Yy_HjLhvBl7YTG0FuWIeG5bZq_g";
 
-    String COMMAND_PREFIX = "<@612712530313216004>";
+    String COMMAND_PREFIX = "<@!542106477180092421>";
 }
